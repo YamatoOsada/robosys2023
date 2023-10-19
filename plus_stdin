@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+#SPDX-FileCopyrighttText: 2023 Yamato Osada
+
 import sys
 
 ans = 0
