@@ -4,10 +4,13 @@
 import sys
 
 ans = 0
+cnt = 0
 for line in sys.stdin:
     try:
         ans += int(line)
+        cnt += 1
     except:
         ans += float(line)
-
+        cnt += 1
+ans = ans/cnt
 print(ans)
